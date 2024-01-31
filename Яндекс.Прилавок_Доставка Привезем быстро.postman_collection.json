@@ -1,0 +1,3154 @@
+{
+	"info": {
+		"_postman_id": "ae93ae67-6b7c-4c5f-813f-64d377d08b68",
+		"name": "Яндекс.Прилавок_Доставка Привезем быстро",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28018030"
+	},
+	"item": [
+		{
+			"name": "Стоимость доставки",
+			"item": [
+				{
+					"name": "Расчет стоимости_deliveryTime_00, productsCount_10,productsWeight_5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime>00</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_01, productsCount_10,productsWeight_5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime>01</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_05, productsCount_10,productsWeight_5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime>05</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_06, productsCount_10,productsWeight_5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>10</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime>06</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_07, productsCount_1,productsWeight_0,1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>0,1</productsWeight>\r\n    <deliveryTime>07</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_07, productsCount_7,productsWeight_2.5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>7</productsCount>\r\n    <productsWeight>2,5</productsWeight>\r\n    <deliveryTime>07</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_08, productsCount_2,productsWeight_0,2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>0,2</productsWeight>\r\n    <deliveryTime>08</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_6,productsWeight_2.4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>6</productsCount>\r\n    <productsWeight>2,4</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_6,productsWeight_2.6",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>6</productsCount>\r\n    <productsWeight>2,6</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_6,productsWeight_7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>6</productsCount>\r\n    <productsWeight>7</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_8,productsWeight_0.1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>8</productsCount>\r\n    <productsWeight>0,1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_14,productsWeight_6",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>14</productsCount>\r\n    <productsWeight>6</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_14,productsWeight_7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>14</productsCount>\r\n    <productsWeight>7</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_15,productsWeight_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>15</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_15,productsWeight_5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>15</productsCount>\r\n    <productsWeight>5</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_15,productsWeight_7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>15</productsCount>\r\n    <productsWeight>7</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_22, productsCount_2,productsWeight_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>22</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_23, productsCount_2,productsWeight_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>23</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_24, productsCount_2,productsWeight_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>24</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_25, productsCount_2,productsWeight_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>25</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_два,productsWeight_2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>\"два\"\"</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Расчет стоимости_deliveryTime_20, productsCount_2,productsWeight_два",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>\"два\"</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"fast-delivery",
+								"v3.1.1",
+								"calculate-delivery.xml"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Стоимость Привезем быстро",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n               \"name\": \"Привезём быстро\",\r\n               \"workingHours\": {\r\n                   \"start\": 7,\r\n                   \"end\": 21\r\n               }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server_url}}/api/v1/couriers",
+							"host": [
+								"{{server_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"couriers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Все параметры ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Все параметры некорректны",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>\"А\"</productsCount>\r\n    <productsWeight>\"%\"</productsWeight>\r\n    <deliveryTime>\"*\"</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Пустой запрос",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Все параметры_null",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>null</productsCount>\r\n    <productsWeight>null</productsWeight>\r\n    <deliveryTime>null</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Все параметры_пусто",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount></productsCount>\r\n    <productsWeight></productsWeight>\r\n    <deliveryTime></deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_07, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>07</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_01, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>01</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_02, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>02</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_06, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>06</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_05, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>05</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_21, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>21</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_22, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>22</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_23, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>23</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_20, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_08, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>08</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_999999999999, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>999999999999</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_null, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>null</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_пусто, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime> </deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_буквы, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>\"семь\"</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_знак препинания, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>\";\"</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_спецсимвол, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>$</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_набор цифр, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>{1,2,3}</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_отсутствует, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_дробное число, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20.5</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deliveryTime_отрицательное число, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>-1</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_1000, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>1000</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_0,1, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>0.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_0,11, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>0.11</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_6, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>6</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_6,01, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>6.01</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_6,02, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>6.02</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_999999999999, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>999999999999</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_отрицательное число, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>-1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_5.99, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.99</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_буква, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>\"пять\"</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_Null, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>null</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_пусто, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight> </productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_спецсимвол, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>\"%\"</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_знак препинания, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>\"!\"</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productWeight_отсутствует, другие ОК",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_null, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>null</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_спецсимвол, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>\"&\"</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_знак препинания, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>\"?\"</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_15, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>15</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_16, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>16</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_дробь, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>16</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_999999999999, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>999999999999</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_отрицательное число, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>-1</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_1, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_2, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_14, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>14</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_13, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>13</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_пусто, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount></productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_буква, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>\"два\"</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productCount_отсутствует, другие параметры ок",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание пользователя для получения  authToken",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"firstName\":\"Тестер\",\r\n   \"email\":\"test@mail.ru\",\r\n   \"phone\":\"+74441237780\",\r\n   \"address\":\"г. Москва, ул. Хохотушкина, д. 16\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}api/v1/users",
+					"host": [
+						"{{server_url}}api"
+					],
+					"path": [
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Яндекс.Прилавок_логи",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server_url}}/api/logs/secondary",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"api",
+						"logs",
+						"secondary"
+					]
+				},
+				"description": "ЯН"
+			},
+			"response": []
+		},
+		{
+			"name": "Яндекс.Прилавок_логи сервер",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server_url}}/api/logs/main",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"api",
+						"logs",
+						"main"
+					]
+				},
+				"description": "ЯН"
+			},
+			"response": []
+		}
+	]
+}
